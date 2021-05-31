@@ -9,7 +9,7 @@
   "scripts": {
     "postinstall": "npm run make",
     "start": "node .",
-    "make": "pkg . -t node14-win-x64 -o ./dist/pkg-express.exe"
+    "make": "pkg . -o ./dist/pkg-express.exe"
   },
   "dependencies": {
     "express": "^4.17.1",
